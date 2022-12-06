@@ -1,5 +1,11 @@
 #include "Game.h"
 
+//Class constructor
+Game::Game() {
+	mWindow = nullptr;
+	mIsRunning = true;
+}
+
 bool Game::Initialize() {
 	//SDL_Init() takes a single parameter, a bitwise OR of all the SDL subsystems to initialize
 	//Some common subsystems are SDL_INIT_AUDIO, SDL_INIT_VIDEO, SDL_INIT_HAPTIC, and SDL_INIT_GAMECONTROLLER
@@ -31,3 +37,32 @@ bool Game::Initialize() {
 	//If we have initialized SDL and created a window, we return true
 	return true;
 }
+
+void Game::Shutdown() {
+	//Destroys the created SDL window
+	SDL_DestroyWindow(mWindow);
+
+	//Cleans up all initialized subsystems properly
+	SDL_Quit();
+}
+
+void Game::ProcessInput() {
+
+}
+
+void Game::UpdateGame() {
+
+}
+
+void Game::GenerateOutput() {
+
+}
+
+void Game::RunLoop() {
+	while (mIsRunning) {
+		ProcessInput();
+		UpdateGame();
+		GenerateOutput();
+	}
+}
+
