@@ -1,5 +1,0 @@
-C:/Users/Strut/Documents/My Documents/Code/C++/GameProgramming/Multiball/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Strut/Documents/My Documents/Code/C++/GameProgramming/Multiball/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/Strut/Documents/My Documents/Code/C++/GameProgramming/Multiball/cmake-build-debug/Multiball/CMakeFiles/Multiball.dir
-C:/Users/Strut/Documents/My Documents/Code/C++/GameProgramming/Multiball/cmake-build-debug/Multiball/CMakeFiles/edit_cache.dir
-C:/Users/Strut/Documents/My Documents/Code/C++/GameProgramming/Multiball/cmake-build-debug/Multiball/CMakeFiles/rebuild_cache.dir
